@@ -17,7 +17,7 @@ int touch3 = 100;
 
 int current_millis = 0; // Variável para armazenar o milisegundo atual
 
-boolean started_game = false;
+bool started_game = false;
 
 void setup() {
   Serial.begin(115200);
